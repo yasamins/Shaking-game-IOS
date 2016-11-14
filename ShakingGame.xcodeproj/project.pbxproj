@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD1AB16F1DDA3E4700D0B865 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1AB16E1DDA3E4700D0B865 /* AppDelegate.swift */; };
+		AD1AB1711DDA3E4700D0B865 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1AB1701DDA3E4700D0B865 /* ViewController.swift */; };
+		AD1AB1741DDA3E4700D0B865 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD1AB1721DDA3E4700D0B865 /* Main.storyboard */; };
+		AD1AB1761DDA3E4700D0B865 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD1AB1751DDA3E4700D0B865 /* Assets.xcassets */; };
+		AD1AB1791DDA3E4700D0B865 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD1AB1771DDA3E4700D0B865 /* LaunchScreen.storyboard */; };
+		AD1AB1841DDA3E4700D0B865 /* ShakingGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1AB1831DDA3E4700D0B865 /* ShakingGameTests.swift */; };
+		AD1AB18F1DDA3E4700D0B865 /* ShakingGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1AB18E1DDA3E4700D0B865 /* ShakingGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD1AB1801DDA3E4700D0B865 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD1AB1631DDA3E4600D0B865 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD1AB16A1DDA3E4700D0B865;
+			remoteInfo = ShakingGame;
+		};
+		AD1AB18B1DDA3E4700D0B865 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD1AB1631DDA3E4600D0B865 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD1AB16A1DDA3E4700D0B865;
+			remoteInfo = ShakingGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD1AB16B1DDA3E4700D0B865 /* ShakingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShakingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD1AB16E1DDA3E4700D0B865 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD1AB1701DDA3E4700D0B865 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD1AB1731DDA3E4700D0B865 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD1AB1751DDA3E4700D0B865 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD1AB1781DDA3E4700D0B865 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD1AB17A1DDA3E4700D0B865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD1AB17F1DDA3E4700D0B865 /* ShakingGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShakingGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD1AB1831DDA3E4700D0B865 /* ShakingGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakingGameTests.swift; sourceTree = "<group>"; };
+		AD1AB1851DDA3E4700D0B865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD1AB18A1DDA3E4700D0B865 /* ShakingGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShakingGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD1AB18E1DDA3E4700D0B865 /* ShakingGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakingGameUITests.swift; sourceTree = "<group>"; };
+		AD1AB1901DDA3E4700D0B865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD1AB1681DDA3E4700D0B865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1AB17C1DDA3E4700D0B865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1AB1871DDA3E4700D0B865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD1AB1621DDA3E4600D0B865 = {
+			isa = PBXGroup;
+			children = (
+				AD1AB16D1DDA3E4700D0B865 /* ShakingGame */,
+				AD1AB1821DDA3E4700D0B865 /* ShakingGameTests */,
+				AD1AB18D1DDA3E4700D0B865 /* ShakingGameUITests */,
+				AD1AB16C1DDA3E4700D0B865 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD1AB16C1DDA3E4700D0B865 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD1AB16B1DDA3E4700D0B865 /* ShakingGame.app */,
+				AD1AB17F1DDA3E4700D0B865 /* ShakingGameTests.xctest */,
+				AD1AB18A1DDA3E4700D0B865 /* ShakingGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD1AB16D1DDA3E4700D0B865 /* ShakingGame */ = {
+			isa = PBXGroup;
+			children = (
+				AD1AB16E1DDA3E4700D0B865 /* AppDelegate.swift */,
+				AD1AB1701DDA3E4700D0B865 /* ViewController.swift */,
+				AD1AB1721DDA3E4700D0B865 /* Main.storyboard */,
+				AD1AB1751DDA3E4700D0B865 /* Assets.xcassets */,
+				AD1AB1771DDA3E4700D0B865 /* LaunchScreen.storyboard */,
+				AD1AB17A1DDA3E4700D0B865 /* Info.plist */,
+			);
+			path = ShakingGame;
+			sourceTree = "<group>";
+		};
+		AD1AB1821DDA3E4700D0B865 /* ShakingGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD1AB1831DDA3E4700D0B865 /* ShakingGameTests.swift */,
+				AD1AB1851DDA3E4700D0B865 /* Info.plist */,
+			);
+			path = ShakingGameTests;
+			sourceTree = "<group>";
+		};
+		AD1AB18D1DDA3E4700D0B865 /* ShakingGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD1AB18E1DDA3E4700D0B865 /* ShakingGameUITests.swift */,
+				AD1AB1901DDA3E4700D0B865 /* Info.plist */,
+			);
+			path = ShakingGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD1AB16A1DDA3E4700D0B865 /* ShakingGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD1AB1931DDA3E4700D0B865 /* Build configuration list for PBXNativeTarget "ShakingGame" */;
+			buildPhases = (
+				AD1AB1671DDA3E4700D0B865 /* Sources */,
+				AD1AB1681DDA3E4700D0B865 /* Frameworks */,
+				AD1AB1691DDA3E4700D0B865 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShakingGame;
+			productName = ShakingGame;
+			productReference = AD1AB16B1DDA3E4700D0B865 /* ShakingGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD1AB17E1DDA3E4700D0B865 /* ShakingGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD1AB1961DDA3E4700D0B865 /* Build configuration list for PBXNativeTarget "ShakingGameTests" */;
+			buildPhases = (
+				AD1AB17B1DDA3E4700D0B865 /* Sources */,
+				AD1AB17C1DDA3E4700D0B865 /* Frameworks */,
+				AD1AB17D1DDA3E4700D0B865 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD1AB1811DDA3E4700D0B865 /* PBXTargetDependency */,
+			);
+			name = ShakingGameTests;
+			productName = ShakingGameTests;
+			productReference = AD1AB17F1DDA3E4700D0B865 /* ShakingGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD1AB1891DDA3E4700D0B865 /* ShakingGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD1AB1991DDA3E4700D0B865 /* Build configuration list for PBXNativeTarget "ShakingGameUITests" */;
+			buildPhases = (
+				AD1AB1861DDA3E4700D0B865 /* Sources */,
+				AD1AB1871DDA3E4700D0B865 /* Frameworks */,
+				AD1AB1881DDA3E4700D0B865 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD1AB18C1DDA3E4700D0B865 /* PBXTargetDependency */,
+			);
+			name = ShakingGameUITests;
+			productName = ShakingGameUITests;
+			productReference = AD1AB18A1DDA3E4700D0B865 /* ShakingGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD1AB1631DDA3E4600D0B865 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = yasamin;
+				TargetAttributes = {
+					AD1AB16A1DDA3E4700D0B865 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 86H8YJR5QC;
+					};
+					AD1AB17E1DDA3E4700D0B865 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 86H8YJR5QC;
+						TestTargetID = AD1AB16A1DDA3E4700D0B865;
+					};
+					AD1AB1891DDA3E4700D0B865 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 86H8YJR5QC;
+						TestTargetID = AD1AB16A1DDA3E4700D0B865;
+					};
+				};
+			};
+			buildConfigurationList = AD1AB1661DDA3E4600D0B865 /* Build configuration list for PBXProject "ShakingGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD1AB1621DDA3E4600D0B865;
+			productRefGroup = AD1AB16C1DDA3E4700D0B865 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD1AB16A1DDA3E4700D0B865 /* ShakingGame */,
+				AD1AB17E1DDA3E4700D0B865 /* ShakingGameTests */,
+				AD1AB1891DDA3E4700D0B865 /* ShakingGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD1AB1691DDA3E4700D0B865 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1AB1791DDA3E4700D0B865 /* LaunchScreen.storyboard in Resources */,
+				AD1AB1761DDA3E4700D0B865 /* Assets.xcassets in Resources */,
+				AD1AB1741DDA3E4700D0B865 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1AB17D1DDA3E4700D0B865 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1AB1881DDA3E4700D0B865 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD1AB1671DDA3E4700D0B865 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1AB1711DDA3E4700D0B865 /* ViewController.swift in Sources */,
+				AD1AB16F1DDA3E4700D0B865 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1AB17B1DDA3E4700D0B865 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1AB1841DDA3E4700D0B865 /* ShakingGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1AB1861DDA3E4700D0B865 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1AB18F1DDA3E4700D0B865 /* ShakingGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD1AB1811DDA3E4700D0B865 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD1AB16A1DDA3E4700D0B865 /* ShakingGame */;
+			targetProxy = AD1AB1801DDA3E4700D0B865 /* PBXContainerItemProxy */;
+		};
+		AD1AB18C1DDA3E4700D0B865 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD1AB16A1DDA3E4700D0B865 /* ShakingGame */;
+			targetProxy = AD1AB18B1DDA3E4700D0B865 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD1AB1721DDA3E4700D0B865 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD1AB1731DDA3E4700D0B865 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD1AB1771DDA3E4700D0B865 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD1AB1781DDA3E4700D0B865 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD1AB1911DDA3E4700D0B865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD1AB1921DDA3E4700D0B865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD1AB1941DDA3E4700D0B865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShakingGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = metropolia.ShakingGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AD1AB1951DDA3E4700D0B865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShakingGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = metropolia.ShakingGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AD1AB1971DDA3E4700D0B865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShakingGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = metropolia.ShakingGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShakingGame.app/ShakingGame";
+			};
+			name = Debug;
+		};
+		AD1AB1981DDA3E4700D0B865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShakingGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = metropolia.ShakingGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShakingGame.app/ShakingGame";
+			};
+			name = Release;
+		};
+		AD1AB19A1DDA3E4700D0B865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShakingGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = metropolia.ShakingGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShakingGame;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AD1AB19B1DDA3E4700D0B865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShakingGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = metropolia.ShakingGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShakingGame;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD1AB1661DDA3E4600D0B865 /* Build configuration list for PBXProject "ShakingGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD1AB1911DDA3E4700D0B865 /* Debug */,
+				AD1AB1921DDA3E4700D0B865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD1AB1931DDA3E4700D0B865 /* Build configuration list for PBXNativeTarget "ShakingGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD1AB1941DDA3E4700D0B865 /* Debug */,
+				AD1AB1951DDA3E4700D0B865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD1AB1961DDA3E4700D0B865 /* Build configuration list for PBXNativeTarget "ShakingGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD1AB1971DDA3E4700D0B865 /* Debug */,
+				AD1AB1981DDA3E4700D0B865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD1AB1991DDA3E4700D0B865 /* Build configuration list for PBXNativeTarget "ShakingGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD1AB19A1DDA3E4700D0B865 /* Debug */,
+				AD1AB19B1DDA3E4700D0B865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD1AB1631DDA3E4600D0B865 /* Project object */;
+}
